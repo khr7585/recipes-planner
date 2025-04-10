@@ -13,8 +13,11 @@ body{
     height: 100vh;
 }
 .flex-container{
+    height: 600px;
     .img-div{
-        flex-basis: 60%;
+        width: 60%;
+        height: 90%;
+        overflow: hidden;
         img{
             border-radius: 8px;
             width: 100%;
@@ -41,7 +44,10 @@ body{
         }
         flex-basis: 30%;
         .text{
-            color:rgba(0, 0, 0, 0.873);
+            color:rgba(0, 0, 0, 0.873);   
+            overflow-y: scroll; 
+            height: 400px; width: 400px;
+            text-indent: 32px;
         }
         h1{
             border-radius: 8px;
